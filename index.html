@@ -1,3 +1,5 @@
+<link rel="stylesheet" href ="styles.css">
+
 <!DOCTYPE html>
  <html lang="ru">
     <head>
@@ -5,25 +7,38 @@
         <title>my page</title>
     </head>
     <body>
-        
+        <div class="grain"></div>
         <header>
-            <h1>my first page!</h1>
+            <h1>my bio page!</h1>
         </header>
         <nav>
             <ul>
                 <li><a href="#main">main</a></li>
                 <li><a href="#about">about</a></li>
+                <li><a href="#projects">projects</a></li>
             </ul>
         </nav>
         <main>
             <section id="main">
-                <header><h2>main</h2></header>
+                <h2>main</h2>
                 <p>it's a main section.</p>
-                <img src="image/cool_humster.jpg" alt="cool humster" width="50%">
+                <img src="image/cool_humster.jpg" alt="cool humster" width="100px">
             </section>
             <section id="about">
-                <header><h2>about</h2></header>
+                <h2>about</h2>
                 <p>it's a section about me.</p>
+            </section>
+            <section id="projects">
+                <h2>projects</h2>
+                <div class="container_proj">
+                    <h3>proj_01</h3>
+                    <p>proj_01 description</p>
+                </div>
+                <div class="container_proj">
+                    <h3>proj_02</h3>
+                    <p>proj_02 description</p>
+                </div>
+                
             </section>
         </main>
         <footer>©footer</footer>
