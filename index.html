@@ -1,46 +1,89 @@
-<link rel="stylesheet" href ="styles.css">
-
 <!DOCTYPE html>
- <html lang="ru">
+<html lang="ru">
+
     <head>
+        <link rel="stylesheet" href ="styles.css">
         <meta charset="UTF-8">
         <title>my page</title>
     </head>
     <body>
-        <div class="grain"></div>
-        <header>
-            <h1>my bio page!</h1>
+        <header class="window">
+            <h1>This is my bio</h1>
+            <p>soooo take a look</p>
         </header>
-        <nav>
-            <ul>
-                <li><a href="#main">main</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#projects">projects</a></li>
-            </ul>
-        </nav>
-        <main>
-            <section id="main">
-                <h2>main</h2>
-                <p>it's a main section.</p>
-                <img src="image/cool_humster.jpg" alt="cool humster" width="100px">
-            </section>
-            <section id="about">
-                <h2>about</h2>
-                <p>it's a section about me.</p>
-            </section>
-            <section id="projects">
-                <h2>projects</h2>
-                <div class="container_proj">
-                    <h3>proj_01</h3>
-                    <p>proj_01 description</p>
-                </div>
-                <div class="container_proj">
-                    <h3>proj_02</h3>
-                    <p>proj_02 description</p>
-                </div>
-                
-            </section>
-        </main>
-        <footer>©footer</footer>
+        <div class="layout">
+            <aside class="side-left window">
+                <nav>
+                    <ul>
+                        <li><a href="#main">main</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#projects">projects</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <main class="window">
+                <section id="main">
+                    <h2>main</h2>
+                    <div class="image window">
+                        <img src="image/cool_humster.jpg" alt="cool humster">
+                        <p>cool_humster.jpg</p>
+                    </div>
+                    <p>it's a main section//it's a main section//it's a main section//it's a main section//it's a main section//it's a main section//it's a main section//it's a main section//it's a main section//it's a main section//it's a main section//it's a main section//it's a main section//</p>
+                </section>
+                <section id="about">
+                    <h2>about</h2>
+                    <p>it's a section about me.</p>
+                </section>
+                <section id="projects">
+                    <h2>projects</h2>
+                    <div class="proj_grid">
+                        <div class="proj window">
+                            <header>
+                                <h3># proj_01</h3>
+                            </header>
+                            <p>
+                                proj_01 description<br>
+                                many many many words about my project_01 it's very interesting (even tho i didnt created anyrhing yet)
+                            </p>
+                        </div>
+                        <div class="proj window">
+                            <header>
+                                <h3># proj_02</h3>
+                            </header>
+                            <p>proj_02 description</p>
+                        </div>
+                        <div class="proj window">
+                            <header>
+                                <h3># proj_03</h3>
+                            </header>
+                            <p>proj_03 description</p>
+                        </div>
+                        <div class="proj window">
+                            <header>
+                                <h3># proj_04</h3>
+
+                            </header>
+                            <p>proj_04 description</p>
+                        </div>
+                        <div class="proj window">
+                            <header>
+                                <h3># proj_05</h3>
+                            </header>
+                            <p>proj_05 description</p>
+                        </div>
+                    </div>
+
+                    
+                </section>
+            </main>
+
+            <aside class="side-right window">
+                <p>right column</p>
+            </aside>
+        </div>
+
+
+        <footer class="window">©footer</footer>
     </body>
  </html>
